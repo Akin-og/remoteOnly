@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "build:dev": "npx vite build --mode development",
+    "build": "node --no-warnings ./node_modules/vite/bin/vite.js build",
+    "build:dev": "node --no-warnings ./node_modules/vite/bin/vite.js build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
   },
